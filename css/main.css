@@ -4,6 +4,7 @@
 	top:0;
 	background-color: white;
 }
+
 .col-4 h2{
 	font-size: 150%;
 	text-align: center;
@@ -238,6 +239,7 @@ textarea {
 .cont-btn{
 	margin-top: 15px;
 }
+
 #btn-enviar{
 	width: 100%;
 	cursor:pointer;

@@ -1,1 +1,198 @@
-/* Inserta tu codigo aqui */
+
+/* caja uno*/
+.navc1{
+	position: fixed;
+	top:0;
+	background-color: white;
+}
+
+.inicio{
+	text-decoration: none;
+}
+.col-4 h2{
+	font-size: 150%;
+	text-align: center;
+}
+ul li{
+	float: left;	
+}
+
+li a{
+	text-decoration: none;
+}
+
+.cajados{
+	background-size: 100%;
+	margin-top: 128px;
+	padding-bottom: 5%;
+}
+.c2titulo{
+	font-size: 130%;
+	text-align: center;
+	padding-top:5%;
+}
+.c2imagenes{
+	margin-top:2%;
+	padding-left: 7%;
+
+}
+
+.c2{
+	width: 300px;
+	height: 379px;
+	display: inline-block;
+	margin:20px;
+	text-align: center;
+}
+
+.imagen1{
+	background-image: url(../img/dance_12.jpg);
+	background-size: 100%;
+
+}
+
+.imagen2{
+	background-image: url(../img/breakdance.jpg);
+	background-size: 100%;
+	background-position: center center;
+
+}
+.imagen3{
+	background-image: url(../img/lirical-jazz.jpg);
+	background-size: 100%;
+	background-position: center center;
+}
+
+.imagen4{
+	background-image: url(../img/arabe.jpg);
+	background-size: 100%;
+}
+.imagen5{
+	background-image: url(../img/little.jpg);
+	background-size: 100%;
+	background-position: center center;
+}
+.imagen6{
+	background-image: url(../img/yoga.jpg);
+	background-size: 100%;
+	background-position: center center;
+}
+.c2 p{
+	font-size: 90%;
+	width: 60%;
+	margin-left: 60px;
+	margin-top: -70px;
+
+
+}
+.c2 h1{
+	font-size: 90%;
+	margin-top:150px;
+	background:rgba(0,0,0,0.7);
+	padding-bottom: 70px;
+	padding-top:20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+/*caja tres formulario*/
+.cajatres{
+	background:url(../img/shoes_1.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right;
+	padding:5%;
+}
+.c3formulario{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.c3formulario h1{
+	font-size: 34px;
+	color: #192951;
+}
+.campos{
+	margin-top: 30px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 1px solid #C6C6D4;
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 1px solid #192951;
+	color: #192951;
+	outline: none;
+  	padding: 13px 13px 13px 54px;
+}
+
+
+#nombre{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#msje{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.cont-btn{
+	margin-top: 15px;
+}
+#btn-enviar{
+	width: 100%;
+	cursor:pointer;
+	background-color: #0B0422;
+	color:white;
+	font-size:20px;
+	padding:20px 0;
+	transition: all 0.3s;
+ 	margin-top: -4px;
+  	border-radius: 5px;
+}
+
+#btn-enviar:hover{
+	background-color: #fff;
+	color: #192951;
+}
+
+.cajacuatro{
+	padding:1.5%;
+	background-color: #0B0422;
+	color: white;
+	font-size: 16px;
+}
